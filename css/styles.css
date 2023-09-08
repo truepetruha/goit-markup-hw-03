@@ -10,10 +10,32 @@ a {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+img {
+    display: block;
 }
 
 button {
     font-family: inherit;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.container {
+    max-width: 1128px;
+}
+
+.container-double {
+    max-width: 1440px;
 }
 
 .ourteam {
@@ -55,11 +77,15 @@ button {
 }
 
 .hero-title {
+    max-width: 496px;
+    text-align: center;
+    margin: 0 auto;
     color: #fff;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    margin-bottom: 48px;
 }
 
 .contact-info {
@@ -110,6 +136,7 @@ button {
 .hero-section {
     background-color: #2E2F42;
     text-align: center;
+    padding: 188px 472px 292px;
 }
 
 .visually-hidden {
@@ -149,12 +176,14 @@ button {
     letter-spacing: 0.02em;
 }
 
+/* Advantage section */
 .advantage-title {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .advantage-text {
@@ -164,3 +193,4 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+/* END Advantage section */
