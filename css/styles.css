@@ -33,7 +33,7 @@ section {
 .container {
     max-width: 1128px;
     margin: 0 auto;
-    padding: 156px;
+    padding: 0 156px;
 }
 
 .container-double {
