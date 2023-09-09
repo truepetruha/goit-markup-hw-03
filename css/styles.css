@@ -45,6 +45,7 @@ section {
 .header-inner {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header-nav {
@@ -176,6 +177,11 @@ section {
     text-transform: capitalize;
 }
 
+.ourteam-ul {
+    display: flex;
+    gap: 24px;
+}
+
 .ourteam-li {
     background-color: #FFF;
 }
@@ -205,6 +211,11 @@ section {
 }
 
 /* Advantage section */
+.advantage-list {
+    display: flex;
+    gap: 24px;
+}
+
 .advantage-title {
     color: #2E2F42;
     font-size: 20px;
