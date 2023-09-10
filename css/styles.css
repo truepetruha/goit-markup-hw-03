@@ -55,8 +55,6 @@ section {
 .header-nav {
     display: flex;
     align-items: center;
-    flex-grow: 1;
-    gap: 24px;
 }
 
 .logo {
@@ -83,9 +81,6 @@ section {
 .nav-list {
     display: flex;
     gap: 40px;
-    flex-grow: 1;
-    margin-right: 40px;
-    justify-content: center;
 }
 
 .nav-link {
