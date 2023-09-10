@@ -1,3 +1,4 @@
+/* Start */
 body {
     color: #434455;
     font-family: "Roboto", sans-serif;
@@ -29,6 +30,20 @@ button {
 section {
     padding: 60px 0;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/* End */
 
 .container {
     max-width: 1158px;
@@ -100,12 +115,6 @@ section {
     color: #404BBF;
 }
 
-.contact-info {
-    font-style: normal;
-    display: flex;
-    gap: 40px;
-}
-
 .address-link {
     color: #434455;
     font-size: 16px;
@@ -119,6 +128,12 @@ section {
     font-style: normal;
 }
 
+.contact-info {
+    font-style: normal;
+    display: flex;
+    gap: 40px;
+}
+
 .contact-info a:hover {
     color: #404bbf;
 }
@@ -128,10 +143,15 @@ section {
 }
 /*END Header */
 
+/* Section 1 Effective Solutions for Your Business */
 .hero-section {
     background-color: #2E2F42;
     text-align: center;
     padding: 188px 0;
+}
+
+.hero-inner {
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -160,6 +180,7 @@ section {
     display: block;
     min-width: 169px;
     border-radius: 4px;
+    margin: 0 auto;
 }
 
 .button-primary:focus {
@@ -170,35 +191,9 @@ section {
     color: #fff;
     background-color: #404BBF;
 }
+/* End section 1 Effective Solutions for Your Business */
 
-.ourteam {
-    background-color: #F4F4FD;
-    padding: 120px 0;
-}
-
-.ourteam-ul {
-    display: flex;
-    gap: 24px;
-    border-radius: 0px 0px 4px 4px;
-}
-
-.ourteam-li {
-    background-color: #FFF;
-}
-
-.name-job{
-    padding: 32px 0;
-}
-
-.h-two {
-    color: #2e2f42;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    margin-bottom: 72px;
-}
+/* Section 2 Ways to achieve the goal */
 .advantage-section {
     padding: 120px 0;
 }
@@ -232,22 +227,39 @@ section {
     letter-spacing: 0.02em;
     text-align: center;
 }
+/* End Section 2 Ways to achieve the goal */
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+/* Section 3 Our Team */
+.ourteam {
+    background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
-/* Section Our Portfolio */
+.h-two {
+    color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.ourteam-ul {
+    display: flex;
+    gap: 24px;
+    border-radius: 0px 0px 4px 4px;
+}
 
+.ourteam-li {
+    background-color: #FFF;
+}
+
+.name-job {
+    padding: 32px 0;
+}
+/* End Section 3 Our Team */
+
+/* Section 4 Our Portfolio */
 .ourportfolio {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -273,11 +285,9 @@ section {
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-
-/* End section Our Portfolio */
+/* End section 4 Our Portfolio */
 
 /* Footer */
-
 .footer {
     color: #F4F4FD;
     background-color: #2E2F42;
@@ -301,5 +311,4 @@ section {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
 /* End footer*/
