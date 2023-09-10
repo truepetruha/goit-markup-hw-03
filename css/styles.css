@@ -231,7 +231,15 @@ section {
 
 .advantage-list {
     display: flex;
-    width: calc((100% - 72px) / 4);
+    gap: 24px;
+}
+
+.advantage-item {
+    margin-right: 24px;
+}
+
+.advantage-item-last {
+    margin-right: 0;
 }
 
 .advantage-title {
@@ -249,5 +257,5 @@ section {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
+}  
 /* END Advantage section */
