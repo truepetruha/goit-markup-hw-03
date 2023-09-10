@@ -33,9 +33,7 @@ section {
 .container {
     max-width: 1158px;
     margin: 0 auto;
-    padding: 0 156px;
-    display: flex;
-    margin: 0 15px;
+    padding: 0 15px;
 }
 
 .ourteam {
