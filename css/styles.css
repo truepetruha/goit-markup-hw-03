@@ -62,7 +62,7 @@ section {
     justify-content: space-between;
     width: 1158px;
     padding: 0 15px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .header-nav {
@@ -147,10 +147,6 @@ section {
     background-color: #2E2F42;
     text-align: center;
     padding: 188px 0;
-}
-
-.hero-inner {
-    margin: 0 auto;
 }
 
 .hero-title {
