@@ -199,7 +199,6 @@ section {
     text-transform: capitalize;
     margin-bottom: 72px;
 }
-
 .advantage-section {
     padding: 120px 0;
 }
@@ -247,6 +246,38 @@ section {
     overflow: hidden;
 }
 
+/* Section Our Portfolio */
+
+.ourportfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.h-two-section-four {
+    margin-bottom: 8px;
+}
+
+.our-portfolio-ul {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.our-portfolio-li {
+    width: calc((100% - 48px) / 3);
+}
+
+.container-our-portfolio {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+/* End section Our Portfolio */
+
+/* Footer */
+
 .footer {
     color: #F4F4FD;
     background-color: #2E2F42;
@@ -270,3 +301,5 @@ section {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+/* End footer*/
