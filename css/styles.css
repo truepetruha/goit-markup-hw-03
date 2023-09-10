@@ -34,6 +34,8 @@ section {
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 156px;
+    display: flex;
+    margin: 0 15px;
 }
 
 .ourteam {
@@ -41,6 +43,9 @@ section {
 }
 
 /* Header */
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
 
 .header-inner {
     display: flex;
@@ -65,6 +70,7 @@ section {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .logo:focus {
@@ -79,12 +85,13 @@ section {
     display: flex;
     gap: 40px;
     flex-grow: 1;
+    margin-right: 40px;
     justify-content: center;
 }
 
 .nav-link {
     display: inline-block;
-    padding: 24px;
+    padding: 24px 0;
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
