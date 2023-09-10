@@ -286,16 +286,20 @@ section {
 .footer {
     color: #F4F4FD;
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .logo-footer {
-    color: #4d5ae5;
+    display: inline-block;
+    align-items: center;
+    color: #4D5AE5;
     font-family: "Raleway", sans-serif;
-    font-weight: 700;
     font-size: 18px;
+    font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 16px;
 }
 
 .logo-accent-foot {
@@ -305,5 +309,6 @@ section {
 .footer-p {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 /* End footer*/
