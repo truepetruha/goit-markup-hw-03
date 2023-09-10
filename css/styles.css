@@ -49,7 +49,6 @@ section {
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
 }
 
 /* Header */
@@ -263,10 +262,6 @@ section {
 .ourportfolio {
     padding-top: 120px;
     padding-bottom: 120px;
-}
-
-.h-two-section-four {
-    margin-bottom: 8px;
 }
 
 .our-portfolio-ul {
