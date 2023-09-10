@@ -238,10 +238,7 @@ section {
 
 .advantage-item {
     margin-right: 24px;
-}
-
-.advantage-item-last {
-    margin-right: 0;
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .advantage-title {
