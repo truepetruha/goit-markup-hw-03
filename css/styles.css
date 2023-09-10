@@ -34,6 +34,7 @@ section {
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    display: flex;
 }
 
 .ourteam {
